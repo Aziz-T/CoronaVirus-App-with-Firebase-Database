@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nedir"
+            android:icon="@drawable/virus_icon"
+            android:title="Korona Virüs Nedir?" />
+        <item
+            android:id="@+id/nasil"
+            android:icon="@drawable/mask_icon"
+            android:title="Korona Virüsten Nasıl Korunuruz?" />
+        <item
+            android:id="@+id/tablo"
+            android:icon="@drawable/graffic"
+            android:title="Türkiye Bütün Günlük " />
+        <item
+            android:id="@+id/tedavi"
+            android:icon="@drawable/tedavi_icon"
+            android:title="Korona Virüs Tedavi"/>
+        <item
+            android:id="@+id/sehirler"
+            android:icon="@drawable/graffic"
+            android:title="Türkiye'deki Şehirlerin Vaka Sayıları"/>
+    </group>
+</menu>
